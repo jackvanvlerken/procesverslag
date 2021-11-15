@@ -13,7 +13,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 ## Jij
 
 <details>
-<summary>Meer infop</summary>
+<summary>Meer info</summary>
 
 ### Auteur:
 Jack van Vlerken
@@ -40,11 +40,11 @@ Surface plane
 
 #### Screenshot(s) van de eerste pagina (small screen): 
 Apple Website
-<img src="images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+<img src="Apple1" width="375px" alt="omschrijving van de pagina">
 
 #### Screenshot(s) van de tweede pagina (small screen):
 Apple website 
-<img src="images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+<img src="Apple2" width="375px" alt="omschrijving van de pagina">
  
 </details>
 

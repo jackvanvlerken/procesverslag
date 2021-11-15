@@ -40,11 +40,11 @@ Surface plane
 
 #### Screenshot(s) van de eerste pagina (small screen): 
 Apple Website
-<img src="Foto1.png" width="375px" alt="omschrijving van de pagina">
+<img src="Foto1.jpeg" width="375px" alt="omschrijving van de pagina">
 
 #### Screenshot(s) van de tweede pagina (small screen):
 Apple website 
-<img src="Foto2.png" width="375px" alt="omschrijving van de pagina">
+<img src="Foto2.jpeg" width="375px" alt="omschrijving van de pagina">
  
 </details>
 

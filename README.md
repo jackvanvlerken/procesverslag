@@ -59,7 +59,7 @@ Apple website
 <img src="Breakdownsheet.png" width="375px" alt="breakdown van de hele pagina">
 
 ### dynamisch deel (bijv menu): 
-<img src="Breakdownsheet_menu.png" width="375px" alt="breakdown van een dynamisch deel">
+<img src="Breakdownsheet_menu.png" width="500px" alt="breakdown van een dynamisch deel">
 
 </details>
 
@@ -73,8 +73,12 @@ Apple website
 <summary>uitwerken voor 1e voortgang</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+In deze week heb ik mijn HTML zo vanilla mogelijk proberen te maken en daarnaast met css gespeeld voor de positionering van elementen met flexbox en position.
+Ik denk dat het opstellen van de HTML heel goed ging. Wat mij heel erg hielp was het maken van een breakdownsheet. Dit is een goeie manier van alles op de website te catagoriseren. Wel twijfel ik nog over mijn sections die ik in de html geplaatst heb.
+ 
+<img src="#" width="500px" alt="HTML opzet">
 
+ Verder was het werken met flexbox en position aan het begin weer wat wennen. Dit was de eerste keer in een lange tijd dat ik hiermee gewerkt had, maar na even oefenen (vooral met flexfroggy) kreeg ik het weer te pakken.
 
 ### Agenda voor meeting
 samen met je groepje opstellen

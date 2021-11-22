@@ -76,7 +76,7 @@ Apple website
 In deze week heb ik mijn HTML zo vanilla mogelijk proberen te maken en daarnaast met css gespeeld voor de positionering van elementen met flexbox en position.
 Ik denk dat het opstellen van de HTML heel goed ging. Wat mij heel erg hielp was het maken van een breakdownsheet. Dit is een goeie manier van alles op de website te catagoriseren. Wel twijfel ik nog over mijn sections die ik in de html geplaatst heb.
  
-<img src="#" width="500px" alt="HTML opzet">
+<img src="HTML_1.jpeg" width="500px" alt="HTML opzet">
 
  Verder was het werken met flexbox en position aan het begin weer wat wennen. Dit was de eerste keer in een lange tijd dat ik hiermee gewerkt had, maar na even oefenen (vooral met flexfroggy) kreeg ik het weer te pakken.
 

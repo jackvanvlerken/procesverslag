@@ -1,0 +1,60 @@
+@font-face {
+    font-family: "San Francisco Bold";
+    src: url(./fonts/System\ San\ Francisco\ Display\ Bold.ttf);
+}
+
+@font-face {
+    font-family: "San Francisco Regular";
+    src: url(./fonts/System\ San\ Francisco\ Display\ Regular.ttf);
+}
+
+@font-face {
+    font-family: "San Francisco Thin";
+    src: url(./fonts/System\ San\ Francisco\ Display\ Thin.ttf);
+}
+
+@font-face {
+    font-family: "San Francisco Ultralight";
+    src: url(./fonts/System\ San\ Francisco\ Display\ Ultralight.ttf);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --bold-font:"San Francisco Bold";
+    --regular-font:"San Francisco Regular";
+    --thin-font:"San Francisco Thin";
+    --ultralight-font:"San Francisco Ultralight";
+
+    --white:#FFFFFF;
+    --nav-color:#333333;
+    --melding-color:#dc4542;
+}
+
+body {
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.melding {
+    font-family: var(--regular-font);
+    font-size: 12px;
+    color: var(--white);
+
+    background-color: var(--melding-color);
+    padding: 25px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+

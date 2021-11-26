@@ -93,26 +93,22 @@ samen met je groepje opstellen
 | beginnen?          |                    | foto?              | 
 
 
- Christaan Dirven:
- Hoe je de CSS gestructueerd vorm kan geven, hoe je moet beginnen?
- 
- 
- Renee Stapert:
- Wat is de beste manier om te beginnen? Stap voor stap of eerst de HTML, dan CSS en dan Java.
- 
- 
- Jack van Vlerken:
- Hoe maak ik een goed werkend hamburger menu?
- Hoe maak ik van een button een foto?
- 
-
 ### Verslag van meeting
-hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- punt 1
-- punt 2
-- nog een punt
-- ...
+De feedback van de meeting zal ik hieronder in bullet points noemen:
+ 
+ - Begin met HTML, vergeet de styling aan het begin
+ - Verdeel CSS in comments. Header styling, main styling, (titel op pagina) styling.
+ 
+ 
+ - melding = aside maken (class kan weggehaald worden)
+ - h1 wel zichbaar maken, maak eerste titel van pagina
+ - eerste section in header!
+ - alt tags = meer duidelijk, wat het is
+ 
+ laatste ding met buttons
+ met details element
+ 
 
 </details>
 

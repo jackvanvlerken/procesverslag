@@ -83,12 +83,28 @@ Ik denk dat het opstellen van de HTML heel goed ging. Wat mij heel erg hielp was
 ### Agenda voor meeting
 samen met je groepje opstellen
 
-| student 1      | student 2          | student 3    | student 4        |
+| Christaan Dirven   | Renee Stapert          | Jack van Vlerken   | 
 | ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
+| Hoe je de CSS  | Wat is de beste 
+| en ik dit      | en dan ik dat    |
+| gestructueerd  | dit als er tijd is | nog een punt | dit wil ik zeker |
+| vorm kan geven,| ...                | ...          | ...              |
+| hoe moet je    | ...                | ...          | ...              |
+| beginnen?      | ...                | ...          | ...              |
 
+
+ Christaan Dirven:
+ Hoe je de CSS gestructueerd vorm kan geven, hoe je moet beginnen?
+ 
+ 
+ Renee Stapert:
+ Wat is de beste manier om te beginnen? Stap voor stap of eerst de HTML, dan CSS en dan Java.
+ 
+ 
+ Jack van Vlerken:
+ Hoe maak ik een goed werkend hamburger menu?
+ Hoe maak ik van een button een foto?
+ 
 
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen

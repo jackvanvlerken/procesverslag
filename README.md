@@ -83,14 +83,14 @@ Ik denk dat het opstellen van de HTML heel goed ging. Wat mij heel erg hielp was
 ### Agenda voor meeting
 samen met je groepje opstellen
 
-| Christaan Dirven   | Renee Stapert          | Jack van Vlerken   | 
-| ---            | ---                | ---          | ---              |
-| Hoe je de CSS  | Wat is de beste 
-| en ik dit      | en dan ik dat    |
-| gestructueerd  | dit als er tijd is | nog een punt | dit wil ik zeker |
-| vorm kan geven,| ...                | ...          | ...              |
-| hoe moet je    | ...                | ...          | ...              |
-| beginnen?      | ...                | ...          | ...              |
+| Christaan Dirven   | Renee Stapert      | Jack van Vlerken   | 
+| ---                | ---                | ---                | 
+| Hoe je de CSS      | Wat is de beste    | Hoe maak ik een    | 
+| en ik dit          | manier om te       | goed werkend       | 
+| gestructueerd      | dit als er tijd is | hamburger menu?    | 
+| vorm kan geven,    | beginnen?          | Hoe maak ik van    | 
+| hoe moet je        |                    | een button een     | 
+| beginnen?          |                    | foto?              | 
 
 
  Christaan Dirven:

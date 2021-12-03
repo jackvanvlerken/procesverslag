@@ -1,3 +1,10 @@
+* {
+    box-sizing: border-box;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
 @font-face {
     font-family: "San Francisco Bold";
     src: url(./fonts/System\ San\ Francisco\ Display\ Bold.ttf);
@@ -18,12 +25,6 @@
     src: url(./fonts/System\ San\ Francisco\ Display\ Ultralight.ttf);
 }
 
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-
 :root {
     --bold-font:"San Francisco Bold";
     --regular-font:"San Francisco Regular";
@@ -31,30 +32,372 @@
     --ultralight-font:"San Francisco Ultralight";
 
     --white:#FFFFFF;
+    --black:#000000;
+
+    --link-color:#1F77D2;
+    --superpower-color:#E6AFD7;
+
     --nav-color:#333333;
     --melding-color:#dc4542;
+    --border-color:#424245;
+
+    --input-color:#1D1D1F;
+    --placeholder-color:#67676D;
+
+    --sale-backgroundcolor:#E9F2FC;
+    --iphone13-background:#FBFBFD;
+    --airpod-background:#FBFBFD;
 }
 
 body {
-
+    font-family: var(--regular-font);
 }
 
 a {
     text-decoration: none;
 }
 
-.melding {
-    font-family: var(--regular-font);
-    font-size: 12px;
-    color: var(--white);
+button {
+    cursor: pointer;
+}
 
-    background-color: var(--melding-color);
-    padding: 25px;
+/*************/
+/* DE HEADER */
+/*************/
 
+header {
     display: flex;
+    justify-content: space-between;
+}
+
+div {
+    padding: 1em 1em;
+    background-color: var(--nav-color);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+    z-index: 10;
+}
+
+header div a {
+    color:var(--white)
+}
+
+header > div a:first-of-type {
+    line-height: 1;
+
+    display: grid;
+    grid-template-columns: min-content min-content;
+
+    align-items: center;
+}
+
+header > div a:first-of-type img {
+    height: 1.2em;
+
+    z-index: 100;
+    position: relative;
+}
+
+header > div a:last-of-type img{
+    height: 1em;
+}
+
+nav {
+    order: -1;
+}
+
+/* geen vragen pls */
+
+header div button {
+    width: 22px;
+    height: 10px;
+    transition: all 0.25;
+}
+
+header div button div:nth-child(1),
+header div button div:nth-child(2) {
+    border-top: 1px solid var(--white);
+    transform: rotate(0);
+    transition: all 0.25;
+
+    z-index: 100;
+        position: relative;
+}
+
+header div button div:nth-child(1) {
+    transform: translateY(-3px);
+}
+
+header div button div:nth-child(2) {
+    bottom: 23px;
+    transform: translateY(3px);
+}
+
+.animatie {
+    transform: rotate(90deg);
+}
+
+.animatie header div button div:nth-child(1) {
+    transform: rotate(45deg) translateY(0px);
+}
+
+.animatie header div button div:nth-child(2) {
+    transform: rotate(-45deg) translateY(0px);
+}
+
+/* tot hier */
+
+nav ul {
+    margin: 0;
+    padding: 4em 0 0;
+    background: var(--black);
+    list-style: none;
+
+    position: absolute;
+
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+
+    transform: translateY(-100%);
+    transition: .5s;
+    transition-timing-function: ease-in-out;
+
+}
+
+.toonMenu ul {
+    transform:translateY(0%);
+
+}
+
+.zwarteAchtergrond {
+    background-color: var(--black);
+    transition: .5s;
+    transition-timing-function: ease-in-out;
+    
+}
+
+.verdwijn {
+    opacity: 0;
+    transition: .2s;
+    transition-timing-function: ease-in-out;
+}
+
+nav li {
+    color: var(--white);
+    margin: 0;
+    padding: 0 2em 0 2em;
+}
+
+nav a {
+    color: var(--white);
+    display: flex;
+    align-items: center;
+    gap: .25em;
+    padding: 1em 1em;
+    border-top: solid 1px var(--border-color);
+
+}
+
+nav li input {
+    padding: 1em;
+    margin-top: .75em;
+    margin-bottom: .75em;
+    width: 100%;
+
+    border: none;
+    border-radius: .4em;
+    background: var(--input-color);
+    color: var(--placeholder-color);
+}
+
+nav li input::placeholder {
+    font-size: 1.2  em;
+    text-align: left;
+}
+
+
+/*********/
+/* ASIDE */
+/*********/
+
+aside {
+    font-family: var(--thin-font);
+    color: var(--white);
+    font-size: .8em;
+
+    background: var(--melding-color);
+    padding: 1em 5em;
+}
+
+aside a {
+    color: var(--white);
+}
+
+
+/**************/
+/* SECTION 1 */
+/*************/
+
+
+.Section1 {
+    background-color: var(--sale-backgroundcolor);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Section1 h1 {
+    font-size: 1.5em;
+    padding: 1em 2em;
+
+}
+
+.Section1 p {
+    color: var(--link-color);
+    margin-bottom: 2em;
+}
+
+.Section1 img:first-of-type {
+    width: 3em;
+    order: -1;
+    margin-top: 2em;
+}
+
+.Section1 img:nth-child(5) {
+    width: 70%;
+    margin-bottom: 2em;
+    
+}
+
+/**************/
+/* SECTION 2 */
+/*************/
+
+.Section2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    background-color: var(--iphone13-background);
+}
+
+.Section2 h2 {
+    color: var(--black);
+    margin-top: 2em;
+}
+
+.Section2 h3 {
+    font-family: var(--thin-font);
+    color: var(--black);
+    margin-top: .2em;
+    margin-bottom: 1em;
+}
+
+.Section2 a {
+    color: var(--link-color);
+    margin-right: 1em;
+}
+
+.Section2 a:first-of-type {
+    width: 100%;
+}
+
+.Section2 img {
+    width: 80%;
+    padding: .5em;
+    margin-top: 2.2em;
+}
+
+.Section2 article {
+    margin-left: 1.5em;
+}
+
+/**************/
+/* SECTION 3 */
+/*************/
+
+.Section3 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 }
 
+.Section3 h2 {
+    color: var(--white);
+    margin-top: 2em;
+}
 
+.Section3 h3 {
+    font-family: var(--thin-font);
+    color: var(--superpower-color);
+    margin-top: .4em;
+    margin-bottom: 1em;
+}
 
+.Section3 img {
+    width: 50em;
+}
+
+.Section3 a {
+    color: var(--link-color);
+}
+
+.Section3 a:nth-child(2) {
+    margin-right: 1em;
+}
+
+.Section3 article {
+    position: absolute;
+}
+
+/**************/
+/* SECTION 4 */
+/*************/
+
+.Section4 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    background-color: var(--airpod-background);
+}
+
+.Section4 h2 {
+    color: var(--black);
+    margin-top: 2em;
+}
+
+.Section4 h3 {
+    font-family: var(--thin-font);
+    color: var(--black);
+    margin-top: .4em;
+    margin-bottom: 1em;
+}
+
+.Section4 img {
+    width: 50em;
+}
+
+.Section4 a {
+    color: var(--link-color);
+}
+
+.Section4 a:nth-child(2) {
+    margin-right: 1em;
+}
+
+.Section4 article {
+    position: absolute;
+    margin-top: 22em;
+}

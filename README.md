@@ -163,6 +163,7 @@ Lijst met je bevindingen die in de test naar voren kwamen:
  <img src="blauwefocus.png" width="500px" alt="Apple Blauwe Focus">
 
 De manier hoe dit opgelost kan worden:
+ <br>
  <img src="oplossingfocus.png" width="500px" alt="Oplossing Blauwe Focus">
 
 

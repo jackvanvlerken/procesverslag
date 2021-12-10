@@ -69,7 +69,7 @@ Apple website
 
 ## Voortgang 1 (week 2)
 
-<details open>
+<details>
 <summary>uitwerken voor 1e voortgang</summary>
 
 ### Stand van zaken
@@ -122,26 +122,24 @@ De feedback van de meeting zal ik hieronder in bullet points noemen:
 <summary>uitwerken voor 2e voortgang</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+In deze week ben ik aan mijn CSS en Javascipt begonnen. Wat er goed ging was het positioneren van elementen in CSS en deze de juiste grotes meegeven. Wat ik lastig vond is het maken van het hamburger menu en de animatie die daarbij hoort. 
+ 
+ <img src="voortgang2.png" width="500px" alt="Opening website">
+ <img src="voortgang2.1.png" width="500px" alt="Section 2">
+ <img src="voortgang2_code.png" width="500px" alt="Voortgang 2 CSS">
+ <img src="voortgang2_java.png" width="500px" alt="Voortgang 2 Java script">
+ 
 
 
 ### Agenda voor meeting
-samen met je groepje opstellen
-
-| student 1      | student 2          | student 3    | student 4        |
-| ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
+Tijdens de meeting wilde we allemaal meer te weten komen over hoe hamburger menu's werken en de animaties die daarbij horen.
 
 
 ### Verslag van meeting
-hier na afloop snel de uitkomsten van de meeting vastleggen
-
-- punt 1
-- punt 2
-- nog een punt
-- ...
+De feedback van de meeting zal ik hieronder in bullet points noemen:
+ 
+ - Javascript met classlist voor het tonen van het menu
+ - 
 
 </details>
 
@@ -156,6 +154,10 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 
 ### Bevindingen
 Lijst met je bevindingen die in de test naar voren kwamen:
+ 
+ - Apple maakt gebruik van een blauwe focus die alleen langs alle knoppen gaat.
+ - De kleuren van apple zijn toegankelijk voor alle handicaps, wat betreft zicht.
+ - 
 
 #### Titel eerste bevinding
 Hier korte omschrijving (met indien nodig een afbeelding)
@@ -192,17 +194,15 @@ Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbe
 <summary>uitwerken voor 3e voortgang</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+In deze week heb ik mijn eerste pagina zo goed als af en ben ik aan mijn tweede pagina haar HTML begonnen.
 
+ <img src="voortgang3_pagina2.1.png" width="500px" alt="Pagina 2">
+ <img src="voortgang3_pagina2.png" width="500px" alt="Pagina 2 Code">
+ <img src="voortgang3_css.png" width="500px" alt="Eerste pagina CSS">
+ <img src="voortgang3_java.png" width="500px" alt="Eerste pagina JAVA">
 
 ### Agenda voor meeting
-samen met je groepje opstellen
-
-| student 1      | student 2          | student 3    | student 4        |
-| ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
+Hoe maak je een dropdown in een dropdown?
 
 
 ### Verslag van meeting

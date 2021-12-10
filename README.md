@@ -159,10 +159,11 @@ Lijst met je bevindingen die in de test naar voren kwamen:
  - De kleuren van apple zijn toegankelijk voor alle handicaps, wat betreft zicht.
  - 
 
-#### Titel eerste bevinding
-Hier korte omschrijving (met indien nodig een afbeelding)
+#### Apple maakt gebruikt van een blauwe focus.
+ <img src="blauwefocus.png" width="500px" alt="Apple Blauwe Focus">
 
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
+De manier hoe dit opgelost kan worden:
+ <img src="oplossingfocus.png" width="500px" alt="Oplossing Blauwe Focus">
 
 
 #### Titel tweede bevinding. 

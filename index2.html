@@ -5,24 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Winkelmandje - Apple (NL)</title>
-    <link rel="stylesheet" href="style2.css">
+    <link rel="icon" href="./images/logo.png">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
+
+        <!-- NAVIGATIE -->
+
         <div>
             <button aria-hidden="true">
                 <span></span>
                 <span></span>
             </button>
 
-            <a href="#">
+            <a href="index.html">
                 <img src="./images/applelogo.png" alt="Apple Logo">
             </a>
 
             <a href="#">
-                <img src="./images/shoppingcart.png" alt="Shopping Cart">
+                <img src="./images/apple-winkelwagen.svg" alt="Shopping Cart">
             </a>
         </div>
+
+        <!-- HAMBURGER MENU -->
+
         <nav tabindex="-1">
 
             <ul>
@@ -41,31 +48,128 @@
         </nav>
     </header>
     <main>
-        <h1>Je winkelmand is leeg</h1>
-        <p>Meld je aan om te zien of er artikelen voor je bewaard zijn. Of ga door met winkelen.</p>
-        <button>Meld je aan</button>
-        <button>Ga door met winkelen</button>
 
-        <p>Meer hulp nodig? <a href="#">Chat nu</a> of bel <a href="#">0800 0200 570</a></p>
+        <!-- KOPTEKST -->
 
-        <section class="nieuw_binnengekomen">
-            <h2>Nieuw binnengekomen</h2>
-            <p>Bekijk de nieuwste accessoires</p>
-            <a href="#">Shop ></a>
+        <section class="koptekst">
+            <h1>Je winkelmand is leeg.</h1>
+            <p>Meld je aan om te zien of er artikelen voor je bewaard zijn. Of ga door met winkelen.</p>
         </section>
 
-        <details>
-            <summary><h2>Vragen over kopen</h2></summary>
-            <p>Wanneer je je postcode invult, krijg je een geschatte bezorg- of ophaaldatum te zien. 
-                Nadat je je bestelling hebt geplaatst, krijg je een definitieve datum. De geschatte datums 
-                zijn gebaseerd op de beschikbaarheid van het betreffende artikel en de bezorgoptie die je kiest. 
-                <a>Lees meer over Apple bezorging en ophalen ></a></p>
-        </details>
+        <!-- BUTTONS -->
+
+        <section class="meldjeaan">
+            <button>Meld je aan</button>
+            <button>Ga door met winkelen</button>
+        </section>
+
+        <!-- HULP TEKST -->
+
+        <section class="hulp">
+        <p>Meer hulp nodig? <a href="#">Chat nu</a> of bel <a href="#">0800 0200 570</a></p>
+        </section>
+
+        <!-- NIEUW BINNEN GEKOMEN -->
+
+        <section class="nieuw_binnengekomen">
+            <article>
+                <h2>Nieuw binnengekomen</h2>
+                <p>Bekijk de nieuwste accessoires.</p>
+                <a href="#">Shop ></a>
+            </article>
+            <img src="./images/nieuwbinnengekomen.png" alt="Nieuw Binnen Gekomen">
+        </section>
+
+        <!-- DROPDOWN IN DROPDOWN MENU -->
+
+        <section class="vragen">
+            <div id="vragen_over_kopen">
+            <h2>Vragen over kopen</h2>
+            <ul>
+                <li>
+                    <details>
+                        <summary>Wanneer ontvang ik mijn bestelling?</summary>
+                        <p>Wanneer je je postcode invult, krijg je een geschatte bezorg- of ophaaldatum te zien. 
+                        Nadat je je bestelling hebt geplaatst, krijg je een definitieve datum. De geschatte datums 
+                        zijn gebaseerd op de beschikbaarheid van het betreffende artikel en de bezorgoptie die je kiest. 
+                        <a>Lees meer over Apple bezorging en ophalen ></a></p>
+                    </details>
+                </li>
+                <li>
+                    <details>
+                        <summary>Kan ik mijn artikelen ophalen bij een Apple Store?</summary>
+                        <p>Ja. Als je kiest voor ophalen, kun je een Apple Store selecteren. Artikelen die op voorraad zijn, 
+                        zijn doorgaans binnen een uur beschikbaar. Zodra je artikelen klaar staan en opgehaald kunnen worden, 
+                        sturen we je een bericht. <a>Lees meer over Apple ophalen ></a></p>
+                    </details>
+                </li>
+                <li>
+                    <details>
+                        <summary>Waar kan ik lezen wat mijn Apple Store doet om shoppen en diensten veiliger te maken voor klanten?</summary>
+                        <p>Bij ons staat veiligheid voorop. Daarom nemen we extra maatregelen om te zorgen voor een schone en 
+                            veilige omgeving voor onze klanten. Zo voeren we gezondheidscontroles uit, is het dragen van een 
+                            mondkapje verplicht en laten we minder mensen toe in de Store. Daarnaast hebben we nieuwe ophaalopties 
+                            toegevoegd voor onze klanten. Je vindt de meest recente informatie over je plaatselijke Apple Store via 
+                            <a>Zoek een Store ></a></p>
+                    </details>
+                </li>
+                <li>
+                    <details>
+                        <summary>Welke betalingsopties zijn er?</summary>
+                        <p>We accepteren iDeal, de meeste credit- en betaalkaarten en Apple Store-cadeaubonnen. Voor meer informatie 
+                            kun je bellen naar 0800 0200 570. <a>Lees meer over Apple betaling en btw ></a></p>
+                    </details>
+                </li>
+                <li>
+                    <details>
+                        <summary>Welk btw-tarief wordt in rekening gebracht?</summary>
+                        <p>Aankopen uit de Apple Store worden belast met het in jouw land of regio gebruikelijke btw-tarief. 
+                            <a>Meer informatie over Apple betaling en btw ></a></p>
+                    </details>
+                </li>
+                <li>
+                    <details>
+                        <summary>Biedt Apple onderwijskorting?</summary>
+                        <p>Ja. Apple heeft speciale prijzen voor studenten, docenten, beheerders en personeelsleden. 
+                            Als je hiervoor in aanmerking denkt te komen, ga je naar de <a>Apple Store voor het onderwijs</a>
+                            (wordt in een nieuw venster geopend) om je bestelling te plaatsen.</p>
+                    </details>
+                </li>
+                <li>
+                    <details>
+                        <summary>Welke financieringopties zijn er?</summary>
+                        <p>Je kunt je aankopen financieren met termijnbetalingen via PayPal-krediet of Barclays-financiering. 
+                            Tijdens het afrekenen kun je financiering aanvragen in het gedeelte ‘Betalen’. * Onderworpen aan kredietgoedkeuring. 
+                            Minimumaankoop vereist. Zie voorwaarden. <a>Lees meer over financiering ></a></p>
+                    </details>
+                </li>
+                <li>
+                    <details>
+                        <summary>Kan ik in andere landen of regio's artikelen kopen voor familie en vrienden?</summary>
+                        <p>Ga naar de online Store van het land of de regio waar de producten worden bezorgd en plaats daar je bestelling. 
+                            Voor meer informatie kun je 0800 0200 570 bellen.</p>
+                    </details>
+                </li>
+                <li>
+                    <details>
+                        <summary>Kan ik mijn bestelling ook ergens anders laten bezorgen dan bij mij thuis?</summary>
+                        <p>Ja. Tijdens het afrekenen kun je een adres naar keuze opgeven. <a>Lees meer over Apple verzending en bezorging ></a></p>
+                    </details>
+                </li>
+            </ul>
+            </div>
+        </section>
     </main>
     <footer>
+
+        <!-- FOOTER TEKST -->
+
         <p>De volgende dag gratis bezorgd De volgende dag gratis bezorgd betekent dat de bestelling de volgende werkdag gratis wordt bezorgd. Als onderdeel van de bezorgopties kun je je bestelling mogelijk in realtime volgen zodra deze is verzonden. Hiermee kun je zelf een nieuwe bezorgtijd kiezen en je bezorgdatum en -locatie instellen. Bestellingen die op een werkdag voor 17.00 uur worden geplaatst, worden de volgende werkdag bezorgd, mits de producten op voorraad zijn. Bestellingen die op een werkdag na 17.00 uur worden geplaatst, worden na twee werkdagen bezorgd. Bestellingen die op vrijdag voor 17.00 uur worden geplaatst, worden op maandag bezorgd. Bestellingen die op vrijdag na 17.00 uur, of op zaterdag of zondag worden geplaatst, worden op dinsdag bezorgd. Bezorging op zaterdag is alleen mogelijk voor producten die daarvoor in aanmerking komen. Voorradige artikelen die gegraveerd moeten worden, moeten op bovenstaande datums voor 12.00 uur worden besteld. De beschikbaarheid van producten kan variëren. Tijdens het afrekenen zie je de bezorgdatum. Externe factoren waar wij geen invloed op hebben, zoals extreme weersomstandigheden, kunnen leiden tot vertragingen.
             <br> <br>
             †† We gebruiken je locatie om de bezorgopties sneller te laten zien. We hebben je locatie kunnen achterhalen aan de hand van je IP-adres, of omdat je die tijdens een eerder bezoek aan Apple al hebt ingevuld.</p>
+        
+        <!-- DROPDOWN MENU -->
+        
         <details>
             <summary>Bestellen en informatie</summary>
             <a href="#">Store</a>
@@ -142,6 +246,9 @@
             <a href="#">Werkgelegenheid in Europa</a>
             <a href="#">Contact opnemen</a>
         </details>
+
+        <!-- FOOTER LOWER TEKST -->
+
         <section class="lower_footer">
             <p>Andere manieren om te shoppen.<a href="#"> Zoek een Apple Store</a> of <a href="#">andere winkel</a>
             bij jou in de buurt. Of bel 0200 570</p>

@@ -25,35 +25,48 @@
     src: url(./fonts/System\ San\ Francisco\ Display\ Ultralight.ttf);
 }
 
+/* Custom Properties
+voor fonts en kleuren */
+
 :root {
     --bold-font:"San Francisco Bold";
     --regular-font:"San Francisco Regular";
     --thin-font:"San Francisco Thin";
     --ultralight-font:"San Francisco Ultralight";
 
+    --active-color:#345FA5;
+    
     --white:#FFFFFF;
     --black:#000000;
 
-    --link-color:#1F77D2;
-    --superpower-color:#E6AFD7;
-    --footer-textcolor:#75757B;
-
     --nav-color:#333333;
-    --melding-color:#dc4542;
-    --border-color:#424245;
 
+    --link-color:#1F77D2;
     --input-color:#1D1D1F;
     --placeholder-color:#67676D;
+
+    --melding-color:#dc4542;
+    --superpower-color:#E6AFD7;
     --nieuw-color:orange;
+
+    --border-color:#424245;
 
     --sale-backgroundcolor:#E9F2FC;
     --section-background:#FBFBFD;
     --applewatch-background:#F5F5F7;
+
+    --footer-textcolor:#75757B;
+    --footer-border:#D2D2D7;
     --footer-background:#F5F5F7;
 
-    --footer-border:#D2D2D7;
 
-    --active-color:#345FA5;
+/* Winkelmandje pagina kleuren */
+
+    --firstbutton-color:#306FDB;
+    --secondbutton-color:#EBEBEA;
+
+    --winkelmandje-border:#F2F2F2;
+    --summary-color:#2A64C5;
 }
 
 body {
@@ -64,14 +77,12 @@ a {
     text-decoration: none;
 }
 
+/* Focus State */
+
 a:focus {
     outline: none;
     border: 4px solid var(--active-color);
     box-shadow: 10px var(--active-color);
-}
-
-button {
-    cursor: pointer;
 }
 
 button:focus {
@@ -120,8 +131,7 @@ header > div a:first-of-type img {
 }
 
 header > div a:last-of-type img{
-    height: 1em;
-    margin-top: .5em;
+    height: 120%;
 }
 
 nav {
@@ -243,7 +253,7 @@ nav li input::placeholder {
 
 
 /*********/
-/* ASIDE */
+/*  MELDING */
 /*********/
 
 aside {
@@ -274,13 +284,17 @@ aside a {
 
 .feestdagen_actie h1 {
     font-size: 1.5em;
-    padding: 1em 2em;
+    padding: .5em 6em;
 
 }
 
-.feestdagen_actie p {
+.feestdagen_actie a {
     color: var(--link-color);
     margin-bottom: 2em;
+}
+
+.feestdagen_actie a:hover {
+    border-bottom: 2px solid var(--link-color);
 }
 
 .feestdagen_actie img:first-of-type {
@@ -326,6 +340,10 @@ aside a {
     margin-right: 1em;
 }
 
+.iphone13_pro a:hover {
+    border-bottom: 2px solid var(--link-color);
+}
+
 .iphone13_pro a:first-of-type {
     width: 100%;
 }
@@ -361,15 +379,19 @@ aside a {
     font-family: var(--thin-font);
     color: var(--superpower-color);
     margin-top: .4em;
-    margin-bottom: 1em;
+    margin-bottom: .5em;
 }
 
 .iphone13 img {
-    width: 50em;
+    width: 100%;
 }
 
 .iphone13 a {
     color: var(--link-color);
+}
+
+.iphone13 a:hover {
+  border-bottom: 2px solid var(--link-color);
 }
 
 .iphone13 a:nth-child(2) {
@@ -378,6 +400,7 @@ aside a {
 
 .iphone13 article {
     position: absolute;
+    margin-bottom: 1em;
 }
 
 /**************/
@@ -410,6 +433,10 @@ aside a {
 .Macbook_pro a {
     color: var(--link-color);
     margin-right: 1em;
+}
+
+.Macbook_pro article a:hover {
+    border-bottom: 2px solid var(--link-color);
 }
 
 .Macbook_pro a:first-of-type {
@@ -453,11 +480,15 @@ aside a {
 }
 
 .airpods img {
-    width: 50em;
+    width: 100%;
 }
 
 .airpods a {
     color: var(--link-color);
+}
+
+.airpods a:hover {
+    border-bottom: 2px solid var(--link-color);
 }
 
 .airpods a:nth-child(2) {
@@ -466,7 +497,7 @@ aside a {
 
 .airpods article {
     position: absolute;
-    margin-top: 22em;
+    margin-top: 16em;
 }
 
 /**************/
@@ -515,6 +546,10 @@ aside a {
     color: var(--link-color);
 }
 
+.applewatch a:hover {
+    border-bottom: 2px solid var(--link-color);
+}
+
 .applewatch a:nth-child(2) {
     margin-right: 1em;
 }
@@ -556,6 +591,10 @@ aside a {
 .ipad_mini a {
     color: var(--link-color);
     margin-right: 1em;
+}
+
+.ipad_mini a:hover {
+    border-bottom: 2px solid var(--link-color);
 }
 
 .ipad_mini a:first-of-type {
@@ -603,6 +642,10 @@ aside a {
     margin-right: 1em;
 }
 
+.airtag a:hover {
+    border-bottom: 2px solid var(--link-color);
+}
+
 .airtag a:first-of-type {
     width: 100%;
 }
@@ -643,7 +686,7 @@ aside a {
 }
 
 .appletv img {
-    width:  40em;
+    width: 100%;
 }
 
 .appletv article img {
@@ -652,6 +695,10 @@ aside a {
 
 .appletv a {
     color: var(--white);
+}
+
+.appletv a:hover {
+    border-bottom: 2px solid var(--white);
 }
 
 .appletv article {
@@ -671,8 +718,164 @@ aside a {
 }
 
 /**************/
+/* WINKLEMANDJE PAGINA */
+/*************/
+
+.koptekst h1 {
+    font-size: 2em;
+    text-align: left;
+    margin-top: 2em;
+    margin-left: 1em;
+}
+
+.koptekst p {
+    font-size: 1em;
+    text-align: left;
+    margin-top: 1em;
+    margin-left: 2em;
+    width: 75%;
+}
+
+/* Buttons */
+
+.meldjeaan button:first-of-type {
+    background-color: var(--firstbutton-color);
+    color: var(--white);
+    font-size: 1em;
+    width: 90%;
+    padding: 1.2em;
+    margin-top: 1.5em;
+    border-radius: 1em;
+    border: none;
+}
+
+.meldjeaan button:nth-of-type(2) {
+    background-color: var(--secondbutton-color);
+    color: var(--black);
+    font-size: 1em;
+    width: 90%;
+    padding: 1.2em;
+    margin-top: 1em;
+    border-radius: 1em;
+    border: none;
+}
+
+/* Hulp tekst */
+
+.hulp p {
+    text-align: left;
+    border-top: 1px solid var(--winkelmandje-border);
+    border-bottom: 1px solid var(--winkelmandje-border);
+    padding: 1.5em;
+    margin-top: 4em;
+    margin-left: 1em;
+}
+
+.hulp p a {
+    color: var(--link-color);
+}
+
+.hulp p a:hover {
+    border-bottom: 2px solid var(--link-color);
+}
+
+/* Nieuw binnen gekomen kop */
+
+.nieuw_binnengekomen h2 {
+    margin-top: 1em;
+}
+
+.nieuw_binnengekomen p {
+    margin-top: 1em;
+}
+
+.nieuw_binnengekomen a {
+    color: var(--link-color);
+    margin-top: 1em;
+    z-index: 1;
+}
+
+.nieuw_binnengekomen a:hover {
+    border-bottom: 2px solid var(--link-color);
+}
+
+.nieuw_binnengekomen img {
+    width: 90%;
+    text-align: left;
+    margin-top: 2.5em;
+}
+
+.nieuw_binnengekomen article {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    margin-top: 4em;
+    margin-left: 12em;
+}
+
+/* Vragen over kopen dropdown */
+
+.vragen {
+    text-align: left;
+    border-top: 1px solid var(--winkelmandje-border);
+    padding: 2em;
+    margin-top: 3em;
+}
+
+.vragen details summary {
+    list-style: none;
+    text-align: left;
+    font-size: 1em;
+}
+
+.vragen details p {
+    text-align: left;
+    margin-top: 2.5em;
+}
+
+.vragen details a {
+    color: var(--link-color);
+}
+
+.vragen ul li {
+    list-style: none;
+    border-top: 1px solid var(--winkelmandje-border);
+    padding: 2em;
+}
+
+/* Kleurverandering op click */
+
+.showDetail {
+    color: var(--summary-color);
+}
+
+/* Dropdown */
+
+#vragen_over_kopen {
+    background: none;
+}
+
+#vragen_over_kopen ul {
+    opacity: 0;
+    height: 0;
+    transition: 0s;
+    display: none;
+  }
+  
+  #vragen_over_kopen ul.active {
+    opacity: 1;
+    display: block;
+    height: auto;
+  }
+
+
+/**************/
 /* FOOTER */
 /*************/
+
+/* Footer tekst */
 
 footer {
     background-color: var(--footer-background);
@@ -693,19 +896,22 @@ footer p:nth-child(1) {
     border-bottom: 1px solid var(--footer-border);
 }
 
-details summary {
+/* Dropdown menu */
+
+footer details summary {
     color: var(--footer-textcolor);
     font-size: 0.75em;
     border-bottom: 1px solid var(--footer-border);
     padding: 1em;
     margin-left: 1em;
+    margin-right: 1em;
     list-style: none;
     
     text-align: left;
 
 }
 
-details a {
+footer details a {
     color: var(--footer-textcolor);
     font-size: 0.75em;
     display: flex;
@@ -714,6 +920,8 @@ details a {
     margin-left: 2em;
 }
 
+/* Footer lower tekst */
+
 .lower_footer p a {
     color: var(--link-color);
 }
@@ -721,9 +929,10 @@ details a {
 .lower_footer p {
     padding: .5em;
     margin-left: 1em;
+    margin-right: 1em;
 }
 
-footer ul {
+.lower_footer ul {
     font-size: 0.75em;
 
     display: flex;
@@ -736,13 +945,13 @@ footer ul {
     padding: 1em;
 }
 
-footer ul li {
+.lower_footer  ul li {
     color: var(--footer-textcolor);
     list-style: none;
     margin-right: 1em;
 }
 
-footer ul li a {
+.lower_footer ul li a {
     color: var(--footer-textcolor);
 }
 

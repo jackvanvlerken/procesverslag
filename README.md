@@ -224,8 +224,10 @@ hier screenshot(s) van je eindresultaat
 
 Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 
-1. bron 1
-2. bron 2
-3. ...
+1. https://www.apple.com/nl/
+2. https://www.apple.com/nl/shop/bag
+3. https://developer.apple.com/fonts/ 
+4. https://css-tricks.com/snippets/css/apple-com-hamburger-bun-menu/
+5. 
 
 </details>

@@ -187,15 +187,11 @@ In deze week heb ik mijn eerste pagina zo goed als af en ben ik aan mijn tweede 
 
 ### Agenda voor meeting
 Hoe maak je een dropdown in een dropdown?
+Hoe werk ik met meerdere style sheets?
 
 
 ### Verslag van meeting
-hier na afloop snel de uitkomsten van de meeting vastleggen
-
-- punt 1
-- punt 2
-- nog een punt
-- ...
+De studenten assistent heeft ons goed verder geholpen, door een blik op onze code te nemen en onze vragen te beantwoorden. De studenten assistent had ook de apple website gebouwt voor mijn website dus kon mij goed op weg helpen met mijn bovenstaande vragen.
 
 </details>
 

@@ -815,7 +815,7 @@ aside a {
     margin-left: 12em;
 }
 
-/* Vragen over kopen dropdown */
+/* Dropdown styling */
 
 .vragen {
     text-align: left;
@@ -851,7 +851,7 @@ aside a {
     color: var(--summary-color);
 }
 
-/* Dropdown */
+/* Dropdown van ul naar li */
 
 #vragen_over_kopen {
     background: none;
@@ -869,7 +869,6 @@ aside a {
     display: block;
     height: auto;
   }
-
 
 /**************/
 /* FOOTER */

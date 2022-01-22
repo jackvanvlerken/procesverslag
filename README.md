@@ -228,6 +228,12 @@ Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 2. https://www.apple.com/nl/shop/bag
 3. https://developer.apple.com/fonts/ 
 4. https://css-tricks.com/snippets/css/apple-com-hamburger-bun-menu/
-5. 
+5. https://moduscreate.com/blog/dark-mode-images/
+6. https://css-tricks.com/almanac/properties/b/backdrop-filter/
+7. https://love2dev.com/blog/ways-to-use-javascript-redirect-to-another-page/
+8. https://www.javascripttutorial.net/javascript-dom/javascript-keyboard-events/
+9. https://www.codegrepper.com/code-examples/javascript/addeventlistener+spacebar
+10. https://stackoverflow.com/questions/63977035/change-image-in-dark-mode
+11. https://codepen.io/sudeepgumaste/pen/ExVZaPb
 
 </details>

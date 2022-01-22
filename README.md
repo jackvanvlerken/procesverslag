@@ -235,5 +235,6 @@ Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 9. https://www.codegrepper.com/code-examples/javascript/addeventlistener+spacebar
 10. https://stackoverflow.com/questions/63977035/change-image-in-dark-mode
 11. https://codepen.io/sudeepgumaste/pen/ExVZaPb
+12. https://www.youtube.com/watch?v=ceNMP-aQkQ4
 
 </details>

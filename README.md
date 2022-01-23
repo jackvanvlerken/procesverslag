@@ -205,11 +205,42 @@ De studenten assistent heeft ons goed verder geholpen, door een blik op onze cod
 <summary>uitwerken voor eindgesprek</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+De stand van zaken voor het eindgesprek is dat ik de twee pagina's van de apple.com website in vanilla html en css compleet af heb gemaakt. Alleen sommige delen van de surface plane laag heb ik nog niet in het ontwerp verwerkt, omdat ik niet hier niet aan toe ben gekomen.
 
 ### Screenshot(s)
 
-hier screenshot(s) van je eindresultaat
+<img src="eindgesprek1.png" width="500px" alt="HTML code eindgesprek">
+<img src="eindgesprek2.png" width="500px" alt="CSS code eindgesprek">
+<img src="eindgesprek3.png" width="500px" alt="JAVA code eindgesprek">
+
+</details>
+ 
+<details>
+<summary>uitwerken voor eindgesprek herkansing</summary>
+
+### Stand van zaken
+De stand van zaken voor de herkansing van het eindgesprek is dat ik mijn surface plane laag heb toegevoegd. Dit zijn de elementen voor de surface plane laag die ik toe heb gevoegd:
+ 
+- Dark mode
+- Nieuwjaar theme
+- Time indicator
+- 3 Micro interacties
+- Keydown event
+- Backdrop filter
+- Fixed position voor de navbar
+
+### Screenshot(s)
+
+<img src="darkmode.png" width="500px" alt="Darkmode">
+<img src="nieuwjaartheme.png" width="500px" alt="nieuwjaar theme">
+<img src="timeindicator.png" width="500px" alt="time indicator">
+<img src="microinteractie1.png" width="500px" alt="microinteractie 1">
+<img src="microinteractie2.png" width="500px" alt="microinteractie 2">
+<img src="microinteractie3.png" width="500px" alt="microinteractie 3">
+<img src="keydown.png" width="500px" alt="keydown event">
+<img src="backdropfilter.png" width="500px" alt="Back drop filter">
+<img src="fixed.png" width="500px" alt="fixed position">
+
 
 </details>
 
